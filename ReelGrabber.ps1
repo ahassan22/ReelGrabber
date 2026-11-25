@@ -1,5 +1,5 @@
 ﻿# ReelGrabber 2.0 - audio, video and transcripts from Facebook, YouTube, TikTok, Instagram and more
-# FieldBuilt · by Ahmed Hassan · https://github.com/ahassan22
+# FieldBuilt · by Ahmed Hassan · https://github.com/ahassan22/ReelGrabber
 # Needs yt-dlp, ffmpeg and Deno (Install.bat installs them).
 param([string]$Url = "")
 
@@ -13,9 +13,9 @@ $env:Path = [Environment]::GetEnvironmentVariable('Path', 'Machine') + ';' +
             [Environment]::GetEnvironmentVariable('Path', 'User') + ';' +
             (Join-Path $env:LOCALAPPDATA 'Microsoft\WinGet\Links')
 
-$AppVersion   = "2.0.2"
+$AppVersion   = "2.0.3"
 $AppName      = "ReelGrabber"
-$ProfileUrl   = "https://github.com/ahassan22"
+$ProfileUrl   = "https://github.com/ahassan22/ReelGrabber"
 $LinkedInUrl  = "https://www.linkedin.com/in/ahmedhassan30/"
 $ContactEmail = "ahassanccna@gmail.com"
 $SettingsDir  = Join-Path $env:APPDATA $AppName
@@ -455,7 +455,7 @@ function Show-About {
     $y += 4
     foreach ($c in @(
         @($ContactEmail, ("mailto:" + $ContactEmail)),
-        @("github.com/ahassan22", $ProfileUrl),
+        @("github.com/ahassan22/ReelGrabber", $ProfileUrl),
         @("linkedin.com/in/ahmedhassan30", $LinkedInUrl))) {
         $link = New-Object System.Windows.Forms.LinkLabel
         $link.Text = $c[0]; $link.Tag = $c[1]; $link.TextAlign = "MiddleCenter"; $link.LinkColor = $BrandTeal

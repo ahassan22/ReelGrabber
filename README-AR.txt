@@ -1,6 +1,6 @@
 ﻿FieldBuilt · فيلد بِلت
 Field-tested. Research-backed.  |  من البحث إلى الميدان
-by Ahmed Hassan · https://github.com/ahassan22
+by Ahmed Hassan · https://github.com/ahassan22/ReelGrabber
 ------------------------------------------------------------
 
 ReelGrabber 2.0 - تحميل الصوت والفيديو والنص

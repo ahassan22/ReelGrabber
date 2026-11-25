@@ -119,7 +119,8 @@ function Read-SrtLines([string]$path) {
         if ($t -match '-->') { continue }
         $t = [regex]::Replace($t, '<[^>]+>', '')
         $t = [regex]::Replace($t, '\{\\[^}]*\}', '')
-        $t = [System.Net.WebUtility]::HtmlDecode($t).Trim()
+        $t = [System.Net.WebUtility]::HtmlDecode($t)
+        $t = [regex]::Replace($t, '\s*>>+\s*', ' ').Trim()   # YouTube speaker-change markers
         if ($t -eq "" -or $t -eq $last) { continue }
         if ($last -and $t.StartsWith($last)) { $out[$out.Count - 1] = $t; $last = $t; continue }
         $out.Add($t); $last = $t
