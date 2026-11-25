@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ReelGrabber",
+  "version": "2.0",
+  "description": "Send the video on the current page to the ReelGrabber app on Windows. FieldBuilt by Ahmed Hassan.",
+  "author": "Ahmed Hassan (FieldBuilt)",
+  "homepage_url": "https://github.com/ahassan22",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "ReelGrabber · FieldBuilt",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "reelgrabber@local.app",
+      "strict_min_version": "121.0"
+    }
+  }
+}

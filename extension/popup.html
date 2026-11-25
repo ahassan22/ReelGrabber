@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>ReelGrabber</title>
+<style>
+  body { font-family: "Segoe UI", Tahoma, sans-serif; width: 300px; margin: 0; padding: 14px; background: #f6f8f7; color: #1b2624; }
+  h1 { font-size: 16px; margin: 0 0 8px; }
+  .url { direction: ltr; text-align: left; font-size: 11px; color: #5b6b67; background: #fff; border: 1px solid #dde5e2; border-radius: 6px; padding: 6px; word-break: break-all; max-height: 48px; overflow: hidden; }
+  .buttons { display: flex; gap: 8px; margin-top: 12px; }
+  button { flex: 1; padding: 9px 6px; border: 0; border-radius: 8px; font-size: 13px; cursor: pointer; color: #fff; }
+  #audio { background: #0f766e; }
+  #video { background: #1f6fb2; }
+  button:disabled { background: #b8c3c0; cursor: default; }
+  .note { font-size: 11.5px; color: #5b6b67; margin-top: 10px; line-height: 1.6; }
+  .brand { display: flex; align-items: center; gap: 6px; margin-top: 12px; padding-top: 10px; border-top: 1px solid #dde5e2; direction: ltr; font-size: 11.5px; font-weight: 600; color: #0f5e59; }
+  .brand img { width: 16px; height: 16px; }
+  #audio { background: #0f5e59; }
+  #video { background: #d98e04; }
+  #transcript { background: #4a5a57; }
+</style>
+</head>
+<body>
+  <h1>إرسال الفيديو إلى ReelGrabber</h1>
+  <div class="url" id="url">...</div>
+  <div class="buttons">
+    <button id="audio">الصوت MP3</button>
+    <button id="video">فيديو كامل</button>
+    <button id="transcript">النص فقط</button>
+  </div>
+  <div class="note" id="note">سيفتح البرنامج والرابط جاهز، ثم اضغط «تحميل».</div>
+  <div class="brand"><img src="icons/icon-16.png" alt=""><span>FieldBuilt · by Ahmed Hassan</span></div>
+  <script src="popup.js"></script>
+</body>
+</html>
