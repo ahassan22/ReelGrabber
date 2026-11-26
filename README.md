@@ -1,11 +1,11 @@
-<p align="center"><a href="https://youtu.be/g_wq25YSQKI"><img src="docs/banner.jpg" alt="Watch the ReelGrabber tutorial on YouTube" width="720"></a></p>
+<p align="center"><img src="docs/banner.jpg" alt="ReelGrabber" width="720"></p>
 
 <h1 align="center">ReelGrabber</h1>
 <p align="center"><b>Audio, video and transcripts from Facebook, YouTube, TikTok, Instagram and more, on Windows.</b><br>
 FieldBuilt · by Ahmed Hassan · <i>Field-tested. Research-backed.</i></p>
 
 <p align="center">
-<a href="../../releases/latest"><b>⬇ Download the latest version</b></a> &nbsp;·&nbsp; <a href="https://youtu.be/g_wq25YSQKI"><b>▶ شرح الفيديو / Video tutorial (Arabic)</b></a>
+<a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
 </p>
 
 ---
@@ -72,7 +72,7 @@ Download only content you own, content that is licensed for reuse, or content yo
 
 ## Contact
 
-Ahmed Hassan · ahassanccna@gmail.com · [LinkedIn](https://www.linkedin.com/in/ahmedhassan30/) · [GitHub](https://github.com/ahassan22) · [YouTube: FieldBuilt Tools](https://www.youtube.com/@FieldBuiltTools)
+Ahmed Hassan · ahassanccna@gmail.com · [LinkedIn](https://www.linkedin.com/in/ahmedhassan30/) · [GitHub](https://github.com/ahassan22)
 
 ## License
 
